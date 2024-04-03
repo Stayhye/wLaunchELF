@@ -4,7 +4,7 @@ SMB ?= 0
 SIO_DEBUG ?= 0
 #set SMB to 1 to build uLe with smb support
 
-EE_BIN = BOOT-UNC.ELF
+EE_BIN = BOOT-UNPC.ELF
 EE_BIN_PKD = BOOT.ELF
 EE_OBJS = main.o pad.o config.o elf.o draw.o loader_elf.o filer.o \
 	poweroff_irx.o iomanx_irx.o filexio_irx.o ps2atad_irx.o ps2dev9_irx.o ps2ip_irx.o netman_irx.o \
